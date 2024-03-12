@@ -1,0 +1,22 @@
+{
+    "name": "pyropxe.com",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "GitHub.copilot",
+                "GitHub.copilot-chat",
+                "budparr.language-hugo-vscode"
+            ]
+        }
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/hugo:latest": {
+            "version": "latest",
+            "extended": true
+        }
+    }
+}
